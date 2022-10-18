@@ -1,0 +1,60 @@
+@import 'config';
+@import 'info';
+@import 'portfolio';
+@import 'aboutme';
+@import 'skill';
+@import 'message';
+@import 'responsive';
+body{
+    background: $background-color;;
+    height: 100vh;
+    line-height: 1.5;
+    color: $white-color;
+    margin: 0px;
+    padding: 0px;
+}
+// h1,h2,h3{
+//     font-weight: 400;
+// }
+// a{
+//     color: whitesmoke;
+//     text-decoration: none;
+// }
+// header{
+//     position: fixed;
+//     z-index: 2;
+//     width: 100%;
+//     padding: 1rem;
+// }
+
+// main{
+//     height: 100%;
+//     width: 100%;
+
+//     .social-icon{
+//         position: fixed;
+//         bottom: 1rem;
+//         left: 1rem;
+//         a{
+//             padding: .4rem;
+//             color: set-text-color($primary-color);
+
+//             @include transition-ease;
+
+//         }
+//          &:hover{
+// color: antiquewhite;
+            
+//          }
+//     }
+// }
+
+// footer{
+//     font-size: 1rem;
+//     position: fixed;
+//     bottom: .4rem;
+//     right: 1rem;
+//     text-align: right;
+//     padding: 1rem;
+//     color: set-text-color($primary-color);
+// }

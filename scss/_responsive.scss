@@ -1,0 +1,247 @@
+@include media-md{
+    body{
+        letter-spacing: 1.5px;
+        font-size: 17px;
+    }
+    .navbar{
+        &-list{
+            &-info{
+                padding: 30px 0px 20px 0px;
+            }
+            &-item a{
+                font-size: 15px;
+            }
+        }
+        >.logo{
+            visibility: hidden;
+        }
+        .threeD{
+            visibility: none;
+            font-size: 65px;
+            line-height: 1;
+        }
+    }
+    .info{
+        .burger{
+            top: 10px;
+            right: 20px;
+            padding: 10px;
+        }
+        
+        &-content{
+            margin: 10% 25px 5% 25px;
+            &-text{
+                line-height: .5;
+                font-size: 51px;
+            }
+        }
+        .contact{
+            margin: auto auto auto 25px;
+            a{
+                padding: 10px 20px 10px 20px;
+                margin-right: 10px;
+            }
+        }
+        .navbar-list .info-content-btn{
+            width: 150px;
+        }
+    }
+    .portfolio{
+        margin-top: 25%;
+        &-project{
+            .project{
+                width: 20%;
+            }
+        }
+    } 
+    .aboutme{
+        margin: 25% 50px auto 50px;
+        padding: auto 25px auto 25px;
+        &-descp{
+            
+            line-height: 32px;
+            
+        }
+    }
+    .skill{
+        margin: 25% 25px auto 25px;
+    }
+    .message{
+        margin: 25% 25px auto 25px;
+        #message-name{
+            width: 25rem;
+        }
+        
+        #message-topic{
+            width: 25rem;
+        }
+        #message-content{
+            width: 35rem;
+        }
+    }
+
+}
+@include media-lg{
+    body{
+        letter-spacing: 1.5px;
+        font-size: 20px;
+    }
+    .navbar{
+        &-list{
+            &-info{
+                padding: 30px 0px 20px 0px;
+            }
+            &-item a{
+                font-size: 17px;
+            }
+        }
+        >.logo{
+            visibility: hidden;
+        }
+        .threeD{
+            visibility: none;
+            font-size: 70px;
+            line-height: 1;
+        }
+    }
+    .info{
+        .burger{
+            top: 10px;
+            right: 20px;
+            padding: 10px;
+        }
+        
+        &-content{
+            margin: 10% 25px 5% 25px;
+            &-text{
+                line-height: .5;
+                font-size: 55px;
+            }
+        }
+        .contact{
+            margin: auto auto auto 25px;
+            a{
+                padding: 10px 20px 10px 20px;
+                margin-right: 10px;
+            }
+        }
+        .navbar-list .info-content-btn{
+            width: 150px;
+        }
+    }
+    .portfolio{
+        margin-top: 25%;
+        &-project{
+            .project{
+                width: 20%;
+            }
+        }
+    } 
+    .aboutme{
+        margin: 25% 50px auto 50px;
+        padding: auto 25px auto 25px;
+        &-descp{
+            
+            line-height: 32px;
+            
+        }
+    }
+    .skill{
+        margin: 25% 25px auto 25px;
+    }
+    .message{
+        margin: 25% 25px auto 25px;
+        #message-name{
+            width: 25rem;
+        }
+        
+        #message-topic{
+            width: 25rem;
+        }
+        #message-content{
+            width: 35rem;
+        }
+    }
+}
+@include media-xl{
+    body{
+        letter-spacing: 1.5px;
+        font-size: 24px;
+    }
+    .navbar{
+        &-list{
+            &-info{
+                padding: 30px 0px 20px 0px;
+            }
+            &-item a{
+                font-size: 19px;
+            }
+        }
+        >.logo{
+            visibility: hidden;
+        }
+        .threeD{
+            visibility: none;
+            font-size: 74px;
+            line-height: 1;
+        }
+    }
+    .info{
+        .burger{
+            top: 10px;
+            right: 20px;
+            padding: 10px;
+        }
+        
+        &-content{
+            margin: 10% 25px 5% 25px;
+            &-text{
+                line-height: .5;
+                font-size: 58px;
+            }
+        }
+        .contact{
+            margin: auto auto auto 25px;
+            a{
+                padding: 10px 20px 10px 20px;
+                margin-right: 10px;
+            }
+        }
+        .navbar-list .info-content-btn{
+            width: 150px;
+        }
+    }
+    .portfolio{
+        margin-top: 25%;
+        &-project{
+            .project{
+                width: 20%;
+            }
+        }
+    } 
+    .aboutme{
+        margin: 25% 50px auto 50px;
+        padding: auto 25px auto 25px;
+        &-descp{
+            
+            line-height: 32px;
+            
+        }
+    }
+    .skill{
+        margin: 25% 25px auto 25px;
+    }
+    .message{
+        margin: 25% 25px auto 25px;
+        #message-name{
+            width: 25rem;
+        }
+        
+        #message-topic{
+            width: 25rem;
+        }
+        #message-content{
+            width: 35rem;
+        }
+    }
+}

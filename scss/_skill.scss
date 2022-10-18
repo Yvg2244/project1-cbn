@@ -1,0 +1,42 @@
+.skill {
+  @include flex-col;
+  font-family: $inter;
+  align-items: center;
+  margin: $mobile-body-margin;
+  margin-top: 50%;
+  margin-bottom: 10px;
+  &-heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+  &-descp {
+    font-size: 15px;
+    font-weight: 200;
+    color: $white-color;
+    margin-bottom: 20px;
+  }
+  &-item {
+    @include flex-row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    &-component {
+      margin: 10px;
+      width: 80px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+    //   border: 1px solid white;
+      @include flex-col;
+      justify-content: center;
+      align-items: center;
+// background-color: $primary-color;
+      img{
+        height: 60px;
+        position: absolute;
+      }
+    }
+  }
+}
