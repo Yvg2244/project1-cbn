@@ -7,8 +7,18 @@ burger.addEventListener('click',function(){
     document.querySelector('.burger :nth-child(3)').classList.toggle("last-child-transform")
     if(!showNavbar)
     document.querySelector('.navbar-list').style.transform="translateY(0%) "
+    
     else
     document.querySelector('.navbar-list').style.transform="translateY(-100%)"
     showNavbar=!showNavbar
 })
+
+const listItems=document.querySelectorAll(".navbar-list-item");
+listItems.forEach(element => {
+    element.addEventListener('click',()=>{
+        document.querySelector('.navbar-list').style.transform="translateY(-100%)"
+    showNavbar=!showNavbar
+    console.log("in")
+    })
+});
 
